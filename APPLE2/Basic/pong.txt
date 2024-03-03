@@ -1,0 +1,21 @@
+do 
+	Clear and display the Hires 1 screen
+	Initialize paddle locations and speed
+	Initialize ball location and speed
+	Draw the paddles on the screen
+	Draw the ball on the screen
+	do
+		for numPaddles do
+			Erase paddles
+			Update Position based on Keyboard input
+			Draw Paddles
+		Erase ball
+		Update Ball position
+		Draw the Ball
+		Check if Ball is colliding with paddle, reverse x and y
+		Check if Ball is colliding with top/bottom of screen, reverse y
+		Check if Ball is colliding with left/right of screen, give point to p1 or p2
+		do 
+			Restart Game
+		while no key pressed
+	while the "R" key was pressed
