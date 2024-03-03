@@ -1,0 +1,51 @@
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (GameBoy Z80-like CPU), page 1.
+Hexadecimal [24-Bits]
+
+Symbol Table
+
+    .__.$$$.                                                    =  002710 L
+    .__.ABS.                                                    =  000000 G
+    .__.CPU.                                                    =  000000 L
+    .__.H$L.                                                    =  000000 L
+  1 _Zoom                                                          00001A GR
+    __divsint                                                      ****** GX
+    __divslong                                                     ****** GX
+    __modsint                                                      ****** GX
+    __mulint                                                       ****** GX
+    __mullong                                                      ****** GX
+  0 _drawSetInMode                                                 001309 GR
+  1 _factor                                                        000010 GR
+  1 _funcNum                                                       000008 GR
+  0 _funcX                                                         000421 GR
+  0 _funcY                                                         000B98 GR
+  0 _getAbs                                                        00002B GR
+  0 _intMod                                                        000000 GR
+  1 _juliaMode                                                     000006 GR
+  0 _main                                                          00168E GR
+  0 _mapRange                                                      000333 GR
+  1 _multi                                                         00001E GR
+    _plot                                                          ****** GX
+  1 _res                                                           00000E GR
+  0 _smoothColor                                                   000077 GR
+  1 _t                                                             000004 GR
+  1 _x                                                             00000A GR
+  1 _xCoord                                                        000012 GR
+  1 _xSize                                                         000000 GR
+  1 _y                                                             00000C GR
+  1 _yCoord                                                        000016 GR
+  1 _ySize                                                         000002 GR
+
+
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (GameBoy Z80-like CPU), page 2.
+Hexadecimal [24-Bits]
+
+Area Table
+
+   0 _CODE                                      size   16F4   flags    0
+   1 _DATA                                      size     22   flags    0
+   2 _DABS                                      size      0   flags    8
+   3 _HOME                                      size      0   flags    0
+   4 _GSINIT                                    size      0   flags    0
+   5 _GSFINAL                                   size      0   flags    0
+   6 _CABS                                      size      0   flags    8
+
