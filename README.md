@@ -28,10 +28,10 @@ Idk
 ## MNDL5151
 A massively scaled down branch of this later became [MNDL5150](https://github.com/OfficialPixelBrush/MNDL5150).
 
-# Nintendo GameBoy
+# GB/Nintendo GameBoy
 This one was made for fun. It is based on my DOS Program, and uses fixed-point integers to be rendered, as GBDK didn't have float support at the time.
 
-# Lua
+# LUA
 ## Computer Craft
 A friend and I were invited to play on a heavily modded Minecraft Server, which introduced me to ComputerCraft. I ended up spending nearly 2 weeks learning Lua to make this Port.
 
@@ -51,7 +51,7 @@ This was me attempting to push the limits of what I was doing, but not really. I
 
 Later I made an attempt to do it properly in 6502/6510 Assembly, but that attempt remains unfinished. It's currently in a Repository labelled as [MDNLBRT64](https://github.com/OfficialPixelBrush/MNDLBRT64).
 
-# Apple II
+# APPLE2/Apple II
 Same story as the Commodore Version.
 
 # 3DS/Nintendo 3DS
