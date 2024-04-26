@@ -1,18 +1,7 @@
-1 t = 10
-2 print chr$(147)
-3 poke 53281,0
-4 poke 53280,1
-5 poke 646,1
-6 ti$="000000"
-7 for y=-1 to 1.1 step .1
-8 for x=-2 to 1 step .1
-9 a=y:b=x
-10 for i = 0 to t step 1
-11 c=b:b=(b*b-a*a)+x
-12 a=2*c*a+y:r=a*a+b*b
-13 if i=t then print chr$(113);: next x
-14 if r>4 then print chr$(32);: next x
-15 if r<=4 then next
-16 print"":next y
-17 print time/60;"s"
-18 end
+1 t=10:printchr$(147):poke53281,0:poke53280,1:poke646,1
+2 ti$="000000":fory=-1to1.1step.1:forx=-2to1step.1
+3 a=y:b=x:fori=0totstep1:c=b:b=(b*b-a*a)+x:a=2*c*a+y:r=a*a+b*b
+4 ifi=tthenprintchr$(113);:nextx
+5 ifr>4thenprintchr$(32);:nextx
+6 ifr<=4thennext
+7 print:nexty:printtime/60;"s"
