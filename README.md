@@ -51,6 +51,9 @@ This was me attempting to push the limits of what I was doing, but not really. I
 
 Later I made an attempt to do it properly in 6502/6510 Assembly, but that attempt remains unfinished. It's currently in a Repository labelled as [MDNLBRT64](https://github.com/OfficialPixelBrush/MNDLBRT64).
 
+Update: 26. April, 2024
+I added mandelbrot.bas, which is a Mandelbrot Renderer written in very optimized Commdore Basic. It only renders to the text output, mainly for performance reasons, but maybe I'll make the redo of the ASM Version output to the bitmap mode. Maybe.
+
 # APPLE2/Apple II
 Same story as the Commodore Version.
 
