@@ -10,20 +10,21 @@ My first stab at a Mandelbrot Set Renderer.
 # MSDOS
 The origin for all my later C Mandelbrot Ports. I haven't touched this code in 2 years, so it's definitely not representative of what I'm capable of now.
 Consists of a few files:
-## MNDLOLD
+## MNDLOLD (v6.1)
 This was my first stab at this, and eventually grew too messy.
 
-## MNDLBRTC
+## MNDLBRTC (v7.2)
 A later revision, though still very awful.
 
-## MNDLBRT8
-I believe this is the last Version I made. It has a few neat features, like BMP Exports.
-
-## MNDLBRTL
+## MNDLBRTL (?)
 This one has increased precision, as it uses long doubles, but it reduces its speed tremendously.
 
-## MNDLBRTT
-Idk
+## MNDLBRTT (v8.1)
+No clue.
+
+## MNDLBRT8 (v8.4)
+I believe this is the last Version I made. It has a few neat features, like BMP Exports.
+It's what most of my other ports are based on.
 
 ## MNDL5151
 A massively scaled down branch of this later became [MNDL5150](https://github.com/OfficialPixelBrush/MNDL5150).
