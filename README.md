@@ -9,25 +9,37 @@ My first stab at a Mandelbrot Set Renderer.
 
 # MSDOS
 The origin for all my later C Mandelbrot Ports. I haven't touched this code in 2 years, so it's definitely not representative of what I'm capable of now.
-Consists of a few files:
-## MNDLOLD (v6.1)
-This was my first stab at this, and eventually grew too messy.
 
-## MNDLBRTC (v7.2)
+Versions before `v5.2` are essentially lost, as those were created before I used Github.
+
+### MNDLBRTL (v5.2)
+
+This one has increased precision, as it uses long doubles,
+but it reduces its speed tremendously.
+The source code for this version is gone,
+and it was probably just a brief compile that I made while
+working on the code that would become `MNDLOLD`.
+
+### MNDLOLD (v6.1)
+
+This was the file that development started in,
+and was called `MNDLBRT` or `MNDLBRTC` for the longest time.
+
+### MNDLBRTC (v7.2)
+
 A later revision, though still very awful.
 
-## MNDLBRTL (?)
-This one has increased precision, as it uses long doubles, but it reduces its speed tremendously.
+### MNDLBRTT (v8.1)
 
-## MNDLBRTT (v8.1)
 No clue.
 
-## MNDLBRT8 (v8.4)
+### MNDLBRT8 (v8.4)
+
 I believe this is the last Version I made. It has a few neat features, like BMP Exports.
 It's what most of my other ports are based on.
 
-## MNDL5151
-A massively scaled down branch of this later became [MNDL5150](https://github.com/OfficialPixelBrush/MNDL5150).
+## MNDL5150
+A massively scaled down branch of `MNDLBRT8` later became [MNDL5150](https://github.com/OfficialPixelBrush/MNDL5150).
 
 # GB/Nintendo GameBoy
 This one was made for fun. It is based on my DOS Program, and uses fixed-point integers to be rendered, as GBDK didn't have float support at the time.
@@ -52,7 +64,7 @@ This was me attempting to push the limits of what I was doing, but not really. I
 
 Later I made an attempt to do it properly in 6502/6510 Assembly, but that attempt remains unfinished. It's currently in a Repository labelled as [MDNLBRT64](https://github.com/OfficialPixelBrush/MNDLBRT64).
 
-Update: 26. April, 2024
+**Update: 26. April, 2024**
 I added mandelbrot.bas, which is a Mandelbrot Renderer written in very optimized Commdore Basic. It only renders to the text output, mainly for performance reasons, but maybe I'll make the redo of the ASM Version output to the bitmap mode. Maybe.
 
 # APPLE2/Apple II
@@ -68,3 +80,6 @@ A derivative of the 3DS Port. It's sufficiently functional, just slower.
 
 # NX/Nintendo Switch
 Theoretically, this is a functional Mandelbrot Renderer for the Nintendo Switch. I just never did much more beyond testing it in an Emulator once.
+
+**Update: 14. May, 2026**
+I finally got a chance to run it on a real Switch, and it doesn't display anything. Dang!
