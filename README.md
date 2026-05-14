@@ -13,14 +13,14 @@ Consists of a few files:
 ## MNDLOLD
 This was my first stab at this, and eventually grew too messy.
 
+## MNDLBRTC
+A later revision, though still very awful.
+
 ## MNDLBRT8
 I believe this is the last Version I made. It has a few neat features, like BMP Exports.
 
 ## MNDLBRTL
 This one has increased precision, as it uses long doubles, but it reduces its speed tremendously.
-
-## MNDLBRTC
-No idea
 
 ## MNDLBRTT
 Idk
